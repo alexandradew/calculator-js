@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator JS</title>
+	<script src="calc.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="calc">
+		<h1>JS Calculator</h1>
+		<div class="screen" type="text" name="screen" id="screen"></div>
+		<div class="box">
+			<div class="button-3" id="clear" onclick="clearScreen()">CLEAR</div>
+			<div class="button" id="divi" name="/" onclick="getNumber(this)">÷</div>
+			<div class="button" id="7" name="7" onclick="getNumber(this)">7</div>
+			<div class="button" id="8" name="8" onclick="getNumber(this)">8</div>
+			<div class="button" id="9" name="9" onclick="getNumber(this)">9</div>
+			<div class="button" id="multi" name="*" onclick="getNumber(this)">x</div>
+			<div class="button" id="4" name="4" onclick="getNumber(this)">4</div>
+			<div class="button" id="5" name="5" onclick="getNumber(this)">5</div>
+			<div class="button" id="6" name="6" onclick="getNumber(this)">6</div>
+			<div class="button" id="subt" name="-" onclick="getNumber(this)">-</div>
+			<div class="button" id="1" name="1" onclick="getNumber(this)">1</div>
+			<div class="button" id="2" name="2" onclick="getNumber(this)">2</div>
+			<div class="button" id="3" name="3" onclick="getNumber(this)">3</div>
+			<div class="button" id="+" name="+" onclick="getNumber(this)">+</div>
+			<div class="button" id="." name="." onclick="getNumber(this)">.</div>
+			<div class="button" id="0" name="0" onclick="getNumber(this)">0</div>
+			<div class="button-2" id="result" onclick="operation()">=</div>
+		</div>
+	</div>	
+</body>
+</html>
